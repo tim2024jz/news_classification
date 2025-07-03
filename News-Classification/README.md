@@ -1,10 +1,6 @@
-# Selective Masking
+# News_Classification  
 
-Source code for "Train No Evil: Selective Masking for Task-Guided Pre-Training"
 
-## Download Data
-
-The datasets can be downloaded from this [link](https://drive.google.com/file/d/1dnDQO6kCNOe2iCpDl-xJ4XXRKLXq-5yw/view?usp=sharing). The datasets need to be put in `data/datasets`.
 
 ## Run the Whole Pipeline
 
@@ -59,15 +55,4 @@ bash scripts/finetune_ckpt_all_seed.sh
 python3 gather_results.py $PATH_TO_THE_FINETUNE_OUTPUT
 ```
 
-## Cite
-
-If you use the code, please cite this paper:
-
-```[]
-@inproceedings{gu2020train,
-    title={Train No Evil: Selective Masking for Task-Guided Pre-Training},
-    author={Yuxian Gu and Zhengyan Zhang and Xiaozhi Wang and Zhiyuan Liu and Maosong Sun},
-    year={2020},
-    booktitle={Proceedings of EMNLP 2020},
-}
-```
+ 
